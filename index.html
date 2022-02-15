@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padepokan Jati Kramat</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="jquery.js"></script>
+
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        /* opacity: 90%; */
+      }
+      ulnav li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #ulnav li a:hover {
+        background-color: gray;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .active {
+        background-color: gray;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      #salam {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: wheat;
+      }
+
+      #sosmed {
+        text-decoration: none;
+        color: white;
+      }
+      .fb,
+      .ig,
+      .wa,
+      .yt {
+        padding-left: 10px;
+        margin-bottom: 10px;
+        color: white;
+      }
+      .sosmed1 a {
+        text-decoration: none;
+        margin-left: 5px;
+      }
+      .sosmed1 {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <!-- Bagian Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient fixed-top bg-opacity-75 text-opacity-100" style="background-color: rgb(56, 56, 56)">
+      <div class="container-fluid w-75 " style="height: 50px">
+        <a href="" style="text-decoration: none; color: black; font-variant: small-caps"
+          ><img src="img/PJK/logopjktras.png" alt="" style="width: 40px; height: 40px; border-radius: 50%; background-size: cover" /><span style="color: aliceblue"> Padepokan Jati Kramat</span></a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul id="ulnav" class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a id="home" class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="tentang" class="nav-link" href="tentang.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kegiatan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Jumbo -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="padding-top: 67px">
+      <div class="carousel-inner" style="height: 500px; border-top: 3px solid gray; border-bottom: 1px solid gray">
+        <div class="carousel-item active">
+          <img src="img/PJK/KOORDINASI1.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/PJK/KOORDINASI2.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/PJK/PENGURUSPJK1.jpeg" class="d-block w-100" alt="..." style="height: 500px" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Akhir Jumbo -->
+
+    <!-- Awal Wellcome -->
+
+    <div class="countainer">
+      <div class="row">
+        <div class="col-md-12 mt-4 w-100 bg-dark bg-gradient"><h2 style="text-align: center; font-variant: small-caps; color: white">Wellcome To Padepokan Jati Kramat</h2></div>
+      </div>
+    </div>
+
+    <!--Akhir Wellcome  -->
+
+    <!-- Awal Sejarah Singkat -->
+
+    <div class="countainer mt-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4" style="display: flex; justify-content: center; align-items: center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title text-center mb-3">Sejarah Singkat</h5>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text">
+                Organisasi ini terbentuk pada tanggal 28 Februari 2019. Didirikan Oleh Bpk Edi Prasetyo yang sampai saat ini menjabat sebagai Ketua Umum dan Guru Besar dari Padepokan Jati Kramat. <br />
+                Hingga kini PJK sudah tersebar di hampir tiap daerah di Indonesia.
+              </p>
+              <a href="tentang.html" class="card-link">Selengkapnya --></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="">
+            <img src="img/PJK/RAPATYUTUBE2.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-center">Dewan Pimpinan Pusat</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <!-- Akhir Sejarah Singkat -->
+
+    <!--Awal DPD PJK -->
+
+    <div class="countainer mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <div class="card w-100">
+            <img src="img/PJK/DPD MAGETAN.jpeg" class="card-img-top" alt="..." style="height: 200px" />
+            <div class="card-body">
+              <p class="card-text text-center">DPD Magetan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card w-100">
+            <img src="img/PJK/PENGURUSPJK1.jpeg" class="card-img-top" alt="..." style="height: 200px" />
+            <div class="card-body">
+              <p class="card-text text-center">DPD Jawa Barat</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card w-100">
+            <img src="img/PJK/DPD SERAGEN.jpeg" class="card-img-top" alt="..." style="height: 200px" />
+            <div class="card-body">
+              <p class="card-text text-center">DPD Jawa Barat</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card w-100">
+            <img src="img/PJK/DPD KALIMANTAN.jpeg" class="card-img-top" alt="..." style="height: 200px" />
+            <div class="card-body">
+              <p class="card-text text-center">DPD Kaltim</p>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir DPD PJK -->
+
+    <!-- Kegiatan Terbaru -->
+
+    <div class="countainer">
+      <div class="row">
+        <div class="col-md-12 bg-dark bg-gradient d-flex justify-content-center align-items-center">
+          <h2 style="color: white; text-align: center; margin-left: 150px; margin-bottom: 50px;">Guyup Rukun Saklawase</h2>
+          <span style="width: 500px; color: white; font-size: 50px; margin-left: -375px">______________________</span>
+        </div>
+      </div>
+      <div class="countainer mt-2">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5 pb-3 bg-dark bg-gradient">
+            <h5 style="text-align: center; color: white; padding-top:5px; padding-bottom: 5px;">Kekeluargaan</h5>
+            <img class="w-100" style="height: 500px;" src="img/PJK/KELUARGAPJK3.jpeg" alt="">
+              </div>
+          <div class="col-md-5 bg-dark bg-gradient">
+             <h5 style="text-align: center; color: white; padding-top:5px; padding-bottom: 5px;">Kebersamaan antar anggota PJK</h5>
+            <img class="w-100" style="height: 500px;" src="img/PJK/upacara1.jpg" alt="">
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir Kegiatan -->
+
+    <!-- Awal Mars Padepokan -->
+
+    <div class="countainer">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 pb-3 mb-4 mt-3 bg-dark bg-gradient" style="border: 1px solid white">
+          <h3 style="text-align: center; color: white; padding-top: 10px">Mars Padepokan Jati Kramat</h3>
+          <audio controls class="container-fluid">
+            <source src="marsPadepokan/MARS PADEPOKAN JATI KRAMAT-MP 3.mp3" />
+          </audio>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <!-- Akhir Mars Padepokan -->
+
+    <!-- Footer -->
+
+    <div class="countainer bg-dark bg-gradient">
+      <div class="row">
+        <div class="col-md-3">
+          <h5 style="text-align: center; font-variant: small-caps; margin-top: 5px; color: white">Salam Satu Jiwa PJK</h5>
+          <img id="salam" src="img/PJK/SALAMSATUJIWA.jpeg" alt="" style="width: 150px; height: 150px; border-radius: 50%; border: 1px solid white; margin-bottom: 5px" />
+        </div>
+        <div id="sosmed" class="col-md-6">
+          <h5 style="font-variant: small-caps; color: white; margin-top: 5px; text-align: center">Follow Us</h5>
+          <div class="sosmed1">
+            <a target="_blank"  class="fb" href="https://www.facebook.com/edi.prasetiono.9"><img src="bootstrap-icons-1.7.1/facebook.svg" alt="" />Facebook</a>
+            <a target="_blank"  class="ig" href="https://www.instagram.com/padepokanjatikramat/"><img src="bootstrap-icons-1.7.1/instagram.svg" alt="" />Instagram</a>
+            <a target="_blank"  class="wa" href=""><img src="bootstrap-icons-1.7.1/whatsapp.svg" alt="" />Whatsapp</a>
+            <a target="_blank"  class="yt" href="https://www.youtube.com/channel/UCQoJVTmuUxgUQakPRuafMbw"><img src="bootstrap-icons-1.7.1/youtube.svg" alt="" />Youtube</a>
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 1px; color: white">
+          <h5 style="text-align: center; color: white">Conntac Us</h5>
+          <p style="border-bottom: 1px solid gray; color: white; text-align: center">Padepokan Jati Kramat</p>
+          <p style="text-align: center; margin-top: -10px">
+            alamat: <br />
+            <span>Jl. JatiKrmat Indah II Blok B 10 No 15 RT 008/ RW 014</span>
+          </p>
+          <p style="text-align: center; margin-top: -10px">
+            Tlp: <br />
+            <span>+68567743196</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir dari footer -->
+
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#home").addClass("active");
+
+        $("#tentang").removeClass("active")
+        $("#kegiatan").removeClass("active")
+        $("gallery").removeClass("active")
+      });
+    </script>
+  </body>
+</html>
